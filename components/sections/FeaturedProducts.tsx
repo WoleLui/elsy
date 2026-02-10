@@ -14,34 +14,27 @@ import { useInView } from 'react-intersection-observer';
 const products = [
   {
     id: 1,
-    name: 'Gâteau Chocolat Suprême',
-    description: 'Un délice fondant au chocolat noir intense',
-    price: '45€',
-    image: '/images/chocolate-cake-round.jpg',
-  },
-  {
-    id: 2,
     name: 'Croissants Dorés',
     description: 'Lot de 6 croissants pur beurre croustillants',
     price: '12€',
     image: '/images/croissants.jpg',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Muffins Pépites',
     description: 'Moelleux aux pépites de chocolat fondantes',
     price: '4€',
     image: '/images/muffin-single.jpg',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Entremets Matcha',
     description: 'Mousse légère au thé vert japonais premium',
     price: '38€',
     image: '/images/matcha-cake.jpg',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Brownies Fondants',
     description: 'Lot de 4 brownies au chocolat noir intense',
     price: '16€',

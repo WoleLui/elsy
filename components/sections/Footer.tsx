@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Instagram, Facebook, Heart } from 'lucide-react';
+import { Instagram, Facebook } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { useInView } from 'react-intersection-observer';
 
@@ -86,16 +86,7 @@ export function Footer() {
           </div>
         </motion.div>
 
-        <div className="border-t border-border py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
-            <p className="font-inter text-sm text-text-secondary">
-              © 2024 Praluse. Tous droits réservés.
-            </p>
-            <p className="font-inter text-sm text-text-secondary flex items-center gap-1">
-              Fait avec <Heart className="w-4 h-4 text-primary fill-primary" /> à Paris
-            </p>
-          </div>
-        </div>
+
       </Container>
     </footer>
   );

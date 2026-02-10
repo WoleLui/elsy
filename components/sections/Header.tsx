@@ -84,9 +84,8 @@ export function Header() {
               ))}
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 flex-shrink-0">
               <ThemeToggle />
-              
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center"
@@ -150,11 +149,7 @@ export function Header() {
                   ))}
                 </nav>
                 
-                <div className="mt-auto">
-                  <p className="text-text-secondary text-sm">
-                    © 2024 Praluse
-                  </p>
-                </div>
+
               </div>
             </motion.div>
           </>
